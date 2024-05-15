@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\seamu\Documents\NetBeansProjects\EbayScraper4\dist\EbayScraper4.jar</jar>
+  <outfile>C:\Users\seamu\Documents\NetBeansProjects\EbayScraper4\dist\EbayScrape.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\seamu\Documents\NetBeansProjects\EbayScraper4\src\ScrapeImageIcon.ico</icon>
+  <classPath>
+    <mainClass>Main</mainClass>
+    <cp>lib/jsoup-1.17.1.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>true</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>8.0</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
